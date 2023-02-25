@@ -1,3 +1,4 @@
+
 // Đối tượng `Validator`
 function Validator(options) {
 

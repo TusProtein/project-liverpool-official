@@ -15,7 +15,8 @@ html{
 
 .mt-50{
     margin-top: 50px;
-}
+}   
+
 
 .zoom .member-img:hover {
     animation: zoomImage linear .5s forwards;
@@ -157,9 +158,7 @@ html{
   background-size: cover; 
 
 }
-#slider .radio-image .img-items .two{
-    width: 100%;
-}
+
 .radio-image, .coach-img {
     width: 100%;
     display: flex;
@@ -181,7 +180,7 @@ html{
 #slider .btn-radio {
     width: 15px;
     height: 15px;
-    border: solid rgb(255, 8, 8) 2px;
+    border: solid #ddd 2px;
     border-radius: 50%;
     transition: 0.5s;
 }
@@ -195,16 +194,23 @@ html{
     margin-left: 2em;
 }
 
-/* #slider .img-items {
-    width: 25%;
-    transition: 1s;
+/* img.img-items.four.radio2,
+img.img-items.four.radio3,
+img.img-items.four.radio4{
+    animation: changeImage 1s ease-in-out forwards;     
 } */
 
 
 
+img.img-items.first.radio1 {
+   margin-top: -208px;
+}
+
 img.img-items,
 img.img-JK{
     width: 100%;
+    transition: 1s;
+    animation: changeImage 1s ease-in-out forwards;   
 }
 
 #coach {
@@ -652,3 +658,18 @@ img.img-JK{
         transform: scale(1.2);
     }
 }
+
+
+
+@keyframes changeImage {
+    from {
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+
+
+  
