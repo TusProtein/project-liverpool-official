@@ -60,19 +60,19 @@ const buyBtns = document.querySelectorAll('.js-buy-btn')
         switch (index) {
                 case 1:
                 rdimage.innerHTML = 
-                `<img src="/assets/img/liverpool/liverpool squad.jpeg" alt class="img-items first radio1">`
+                `<img src="./assets/img/liverpool/liverpool squad.jpeg" alt class="img-items first radio1">`
                 break;
                 case 2:
                 rdimage.innerHTML = 
-                `<img src="/assets/img/liverpool/liverpool2019.jpeg" alt="" class="img-items second radio2">` 
+                `<img src="./assets/img/liverpool/liverpool2019.jpeg" alt="" class="img-items second radio2">` 
                 break;
                 case 3:
                 rdimage.innerHTML = 
-                `<img src="/assets/img/liverpool/premierleague.jpeg" alt="" class="img-items thir radio3">`
+                `<img src="./assets/img/liverpool/premierleague.jpeg" alt="" class="img-items thir radio3">`
                 break;
                 case 4:
                 rdimage.innerHTML = 
-                `<img src="/assets/img/liverpool/FifaWC.jpeg" alt="" class="img-items four radio4">`
+                `<img src="./assets/img/liverpool/FifaWC.jpeg" alt="" class="img-items four radio4">`
                 break;
 
             default:
