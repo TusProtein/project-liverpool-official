@@ -26,7 +26,7 @@
         line-height: 2;
     }
     #footer .socials-list a{
-        font-size: 37px;
+        font-size: 34px;
         margin: 0 8px;
     }
     #footer .copyright{
@@ -45,6 +45,9 @@
 
 /* mobile */
 @media (max-width:46.1875em){
+    .contact-row.mt-32 {
+        width: 100%;
+    }
     .member-list p {
         font-size: 15px;
         max-width: 384px;
@@ -114,6 +117,7 @@
    #nav li a{
        display: block;
        padding: 1px 24px;
+       height: 46px;
    }
    #nav > li{
        display: block;

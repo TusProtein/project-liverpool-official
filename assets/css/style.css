@@ -468,7 +468,9 @@ img.img-JK{
     display: inline-block;
 }
 
-
+.contact-row.mt-32 {
+    width: 50%;
+}
 
 .form-control1 {
     width: 100%;
@@ -522,6 +524,7 @@ img.img-JK{
 #footer .socials-list  a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.6);
+    font-size: 40px;
 }
 #footer .socials-list > a:hover{
     color: rgba(0, 0, 0, 0.4);
