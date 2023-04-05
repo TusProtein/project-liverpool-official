@@ -38,12 +38,13 @@ html{
 #header{
     height: 46px;
     background-color: #be190e;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
 }
 
 #nav {
@@ -202,9 +203,6 @@ img.img-items.four.radio4{
 
 
 
-img.img-items.first.radio1 {
-   margin-top: -208px;
-}
 
 img.img-items,
 img.img-JK{
@@ -520,9 +518,8 @@ img.img-JK{
     position: relative;
 }
 #footer .socials-list{
-    font-size: 30px;
-    margin-right: 50px;
-    margin-top: 10px;
+    
+    margin-top: 24px;
 }
 #footer .socials-list  a{
     text-decoration: none;
